@@ -1,6 +1,6 @@
 //3.0.2 Assignment: Async/Await by Eileen
 
-//QUESTION 1-8: this func is going to be a wrapper for the fetch api- 1) pass in the arguments (a url str + an options obj), 2) make the func async, 3) return a tuple, 4) make the fetch call, 5) check for errors, 6) handle not ok response, 7) check if JSON, 8) return the tuple
+//QUESTION 1-8: this helper func is going to be a wrapper for the fetch api- 1) pass in the arguments (a url str + an options obj), 2) make the func async, 3) return a tuple, 4) make the fetch call, 5) check for errors, 6) handle not ok response, 7) check if JSON, 8) return the tuple
 export const fetchHandler = async (url, options = {}) => {
   try {
     const response = await fetch(url, options);
@@ -20,3 +20,12 @@ export const fetchHandler = async (url, options = {}) => {
     return [null, err]; //returning a tuple of the error
   }
 };
+
+//testing helper func
+export const getRandomDog = async () => {    
+  const [dogData, error] = await fetchHandler('https://dog.ceo/api/breeds/image/random');
+
+  if (dogData) console.log(dogData);
+};
+
+getRandomDog();
