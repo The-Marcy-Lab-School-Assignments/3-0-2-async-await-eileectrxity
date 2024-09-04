@@ -1,16 +1,16 @@
 {
   "idToTestNameHash": {
-    "FrScTe1": "src/from-scratch.spec.js > From Scratch Tests > Returns a promise",
-    "FrScTe2": "src/from-scratch.spec.js > From Scratch Tests > Resolves a tuple with 2 elements",
-    "FrScTe3": "src/from-scratch.spec.js > From Scratch Tests > Makes a fetch call to the passed in url",
-    "FrScTe4": "src/from-scratch.spec.js > From Scratch Tests > Makes a fetch call to the passed in url and options",
-    "FrScTe5": "src/from-scratch.spec.js > From Scratch Tests > Catches a network error",
-    "FrScTe6": "src/from-scratch.spec.js > From Scratch Tests > Resolves the error as the second value in the tuple",
-    "FrScTe7": "src/from-scratch.spec.js > From Scratch Tests > Console.warns the expected error",
-    "FrScTe8": "src/from-scratch.spec.js > From Scratch Tests > Throws an error if the response is not ok",
-    "FrScTe9": "src/from-scratch.spec.js > From Scratch Tests > Handles a 204 response (by calling .text())",
-    "FrScTe10": "src/from-scratch.spec.js > From Scratch Tests > Handles a text response",
-    "FrScTe11": "src/from-scratch.spec.js > From Scratch Tests > Handles a JSON response"
+    "FrScTe1": "From Scratch Tests > Returns a promise",
+    "FrScTe2": "From Scratch Tests > Resolves a tuple with 2 elements",
+    "FrScTe3": "From Scratch Tests > Makes a fetch call to the passed in url",
+    "FrScTe4": "From Scratch Tests > Makes a fetch call to the passed in url and options",
+    "FrScTe5": "From Scratch Tests > Catches a network error",
+    "FrScTe6": "From Scratch Tests > Resolves the error as the second value in the tuple",
+    "FrScTe7": "From Scratch Tests > Console.warns the expected error",
+    "FrScTe8": "From Scratch Tests > Throws an error if the response is not ok",
+    "FrScTe9": "From Scratch Tests > Handles a 204 response (by calling .text())",
+    "FrScTe10": "From Scratch Tests > Handles a text response",
+    "FrScTe11": "From Scratch Tests > Handles a JSON response"
   },
   "testNameToIdHash": {
     "src/from-scratch.spec.js > From Scratch Tests > Returns a promise": "FrScTe1",
@@ -23,7 +23,18 @@
     "src/from-scratch.spec.js > From Scratch Tests > Throws an error if the response is not ok": "FrScTe8",
     "src/from-scratch.spec.js > From Scratch Tests > Handles a 204 response (by calling .text())": "FrScTe9",
     "src/from-scratch.spec.js > From Scratch Tests > Handles a text response": "FrScTe10",
-    "src/from-scratch.spec.js > From Scratch Tests > Handles a JSON response": "FrScTe11"
+    "src/from-scratch.spec.js > From Scratch Tests > Handles a JSON response": "FrScTe11",
+    "From Scratch Tests > Returns a promise": "FrScTe1",
+    "From Scratch Tests > Resolves a tuple with 2 elements": "FrScTe2",
+    "From Scratch Tests > Makes a fetch call to the passed in url": "FrScTe3",
+    "From Scratch Tests > Makes a fetch call to the passed in url and options": "FrScTe4",
+    "From Scratch Tests > Catches a network error": "FrScTe5",
+    "From Scratch Tests > Resolves the error as the second value in the tuple": "FrScTe6",
+    "From Scratch Tests > Console.warns the expected error": "FrScTe7",
+    "From Scratch Tests > Throws an error if the response is not ok": "FrScTe8",
+    "From Scratch Tests > Handles a 204 response (by calling .text())": "FrScTe9",
+    "From Scratch Tests > Handles a text response": "FrScTe10",
+    "From Scratch Tests > Handles a JSON response": "FrScTe11"
   },
   "testScores": {
     "From Scratch Tests": {
